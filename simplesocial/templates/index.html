@@ -2,11 +2,16 @@
 
 {% block content %}
 <div class="container">
-  <div class="jumbotron">
+  <div class="">
 
     <h1>Welcome to Star Social!</h1>
     <p>Bangladesh's First Social Media Network!</p>
 
+    {% if user.is_authenticated %}
+
+    <h2><a href="{% url 'groups:all'%}">Go to Groups</a></h2>
+
+    {% endif %}
 
 
   </div>

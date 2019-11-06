@@ -25,7 +25,7 @@ SECRET_KEY = '_iz87n9g5_4lq@_*&2p8fqk$=%b2g!m1u97v6#r(0fuc^oska@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['mrubayet.pythonanywhere.com']
+ALLOWED_HOSTS = ['mrubayet.pythonanywhere.com','127.0.0.1','localhost']
 
 
 # Application definition
